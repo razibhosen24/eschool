@@ -1,0 +1,90 @@
+
+
+/*font start*/
+@font-face{
+	font-family: poppins-regular;
+	src: url(../fonts/poppins/poppins-Regular.ttf);
+	
+}
+
+@font-face{
+	font-family: poppins-medium;
+	src: url(../fonts/poppins/poppins-Medium.ttf);
+	
+}
+
+@font-face{
+	font-family: poppins-bold;
+	src: url(../fonts/poppins/poppins-Bold.ttf);
+	
+}
+
+@font-face{
+	font-family: roboto-regular;
+	src: url(../fonts/roboto/roboto-regular.ttf);
+	
+}
+/*font end*/
+
+/*common start*/
+body {
+	font-family: poppins-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000; 
+
+}
+/*common end*/
+
+/*header start*/
+header {
+	background: #F0FFF0;
+	padding: 20px 0;
+
+}
+
+.c-nav{}
+
+.logo{}
+
+.menu{}
+
+.menu ul li{
+	padding-right: 20px;
+}
+
+.menu ul li a{
+	transition: 0.3s;
+}
+
+.menu ul li a:hover{
+	color: red;
+}
+
+.c-btn{
+	font-family: roboto-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	line-height: 19px;
+	text-decoration: none;
+	background: #21B573; 
+	border-radius: 33px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s; 
+}
+
+.c-sign-btn{
+	width: 105px;
+	height: 45px;
+	margin-left: 10px;
+}
+
+.c-btn:hover{
+	background: red;
+	color: white;
+}
+
+/*header end*/
